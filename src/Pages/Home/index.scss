@@ -1,0 +1,16 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+
+  .divisao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3vh 0vw;
+    background-color: #0075FF;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 800;
+  }
+}
