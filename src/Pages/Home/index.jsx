@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="Home">
       <SessaoInicial />
-      <div className="SessaoUm">
+      <div className="Sessao">
         <div className="sep">
           <img src="/assets/images/Logo.png" alt="logo" className='logo' />
           <p>{'<div>'}</p>
@@ -33,7 +33,7 @@ export default function Home() {
           E TECNOLOGIA </h1>
       </div>
 
-      <div className="sessaoDois">
+      <div className="Sessao" id='invert'>
         <div className="sep">
           <img src="/assets/images/Logo.png" alt="logo" className='logo' />
           <p>{'.section{'}</p>
@@ -60,7 +60,7 @@ export default function Home() {
           PROTEÇÃO</h1>
       </div>
 
-      <div className="sessaoTres">
+      <div className="Sessao">
         <div className="sep">
           <img src="/assets/images/Logo.png" alt="logo" className='logo' />
           <p>{'.body{'}</p>
