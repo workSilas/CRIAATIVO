@@ -5,7 +5,7 @@ import Nav from '../../components/Nav';
 export default function SessaoInicial() {
   return (
     <div className="SessaoInicial">
-      <Nav /> 
+      <Nav />
       <div className='square'>
         <img src="/assets/images/LogoEstendida.png" alt="criaativo" />
         <div className='text'>

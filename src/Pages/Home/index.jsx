@@ -27,10 +27,12 @@ export default function Home() {
           <img src="/assets/images/imagemSessao1.png" alt="imagem1" />
         </div>
       </div>
+
       <div className="divisao">
         <h1>MODERNIDADE <br />
           E TECNOLOGIA </h1>
       </div>
+
       <div className="sessaoDois">
         <div className="sep">
           <img src="/assets/images/Logo.png" alt="logo" className='logo' />
@@ -52,10 +54,12 @@ export default function Home() {
           <img src="/assets/images/imagemSessao2.png" alt="imagem2" />
         </div>
       </div>
+
       <div className="divisao">
         <h1>SEGURANÇA E <br />
           PROTEÇÃO</h1>
       </div>
+
       <div className="sessaoTres">
         <div className="sep">
           <img src="/assets/images/Logo.png" alt="logo" className='logo' />
@@ -77,6 +81,7 @@ export default function Home() {
           <img src="/assets/images/imagemSessao3.png" alt="imagem3" />
         </div>
       </div>
+
       <Rodape
       />
     </div>
