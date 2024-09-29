@@ -10,7 +10,7 @@ export default function SessaoInicial() {
         <img src="/assets/images/LogoEstendida.png" alt="criaativo" />
         <div className='text'>
           <h1>Um site ajudaria no <br />
-            desenvolvimento do <br />
+            desenvolvimento            do <br />
             seu negócio?</h1>
           <p>Somos especializados na criação de páginas <br />
             webs e sites, que podem impulsionar e trazer <br />
