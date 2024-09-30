@@ -46,3 +46,51 @@
     }
   }
 }
+
+@media (max-width: 1280px) {
+  .SessaoInicial {
+    background-image: url('../../../public/assets/images/imagemInicialM.png');
+
+    .square {
+      height: 20vh;
+
+      img {
+        width: 200px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1224px) {
+  .SessaoInicial {
+
+    .square {
+
+      .text {
+        font-size: 0.7rem;
+      }
+
+      a {
+        font-size: 0.7rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 921px) {
+  .SessaoInicial {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .SessaoInicial {
+
+  }
+}
+
+@media (max-width: 390px) {
+  .SessaoInicial {
+
+  }
+}
