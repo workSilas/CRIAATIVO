@@ -29,7 +29,7 @@ export default function Rodape() {
           <Link to={'/'}>TEMPLATES</Link>
         </div>
         <div className="content" id='redes'>
-          <h1>SIGA-NOS !</h1>
+          <h1>SIGA-NOS!</h1>
           <img src="/assets/images/Redes.png" alt="Redes" />
         </div>
       </div>

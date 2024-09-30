@@ -6,6 +6,7 @@
   background-color: #0075FF;
   padding: 10vh 10vw;
   gap: 50px;
+  font-size: 0.8rem;
 
   img {
     align-self: flex-start;
@@ -53,5 +54,99 @@
   p {
     align-self: flex-start;
     color: #fff;
+  }
+}
+
+@media (max-width: 1280px) {
+  .Rodape {
+
+    img {
+      width: 30vw;
+    }
+
+    .info {
+
+      #redes {
+        text-align: center;
+
+        img {
+          width: 13vw;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1224px) {
+  .Rodape {
+    gap: 30px;
+    font-size: 0.6rem;
+
+    .info {
+      font-size: 0.6rem;
+
+      
+      #redes {
+        text-align: center;
+
+        img {
+          width: 10vw;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 921px) {
+  .Rodape {
+    padding: 4vh 7vw;
+    gap: 30px;
+    font-size: 0.6rem;
+
+    .line {
+      height: 0.3vh;
+    }
+
+    .info {
+      font-size: 0.6rem;
+      
+      #redes {
+        text-align: center;
+
+        img {
+          width: 10vw;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .Rodape {
+    font-size: 0.4rem;
+    
+    .info {
+      width: 90vw;
+      font-size: 0.4rem;
+
+      #redes {
+        margin-left: 8vw;
+      }
+    }
+  }
+}
+
+@media (max-width: 390px) {
+  .Rodape {
+    font-size: 0.3rem;
+    
+    .info {
+      width: 90vw;
+      font-size: 0.38rem;
+
+      #redes {
+        margin-left: 6vw;
+      }
+    }
   }
 }
