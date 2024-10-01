@@ -104,7 +104,14 @@
   .SessaoInicial {
 
     .square {
-      padding-top: 12vh;
+
+      img  {
+        width: 180px;
+      }
+
+      .text {
+        font-size: 0.4rem;
+      }
     }
   }
 }
