@@ -57,26 +57,46 @@
   }
 }
 
-@media (max-width: 1224px) {
+@media (max-width: 912px) {
   .Nav {
+    right: 5vw;
 
-  }
-}
+    .sessao {
+      border-radius: 5px;
+      flex-direction: column;
+      padding: 1vh 1vw;
 
-@media (max-width: 921px) {
-  .Nav {
-    height: 50vh;
+      .line {
+        width: 10vw;
+        height: 0.2vh;
+      }
+    }
   }
 }
 
 @media (max-width: 600px) {
   .Nav {
 
+    .sessao {
+      padding: 0.5vh 0.5vw;
+
+      a {
+        font-size: 0.5rem;
+      }
+
+      .line {
+        width: 15vw;
+        height: 0.2vh;
+      }
+    }
   }
 }
 
 @media (max-width: 390px) {
   .Nav {
 
+    .sessao {
+      padding: 0.5vh 0.2vw;
+    }
   }
 }

@@ -61,7 +61,7 @@
   }
 }
 
-@media (max-width: 1224px) {
+@media (max-width: 1024px) {
   .SessaoInicial {
 
     .square {
@@ -77,20 +77,34 @@
   }
 }
 
-@media (max-width: 921px) {
+@media (max-width: 912px) {
   .SessaoInicial {
     height: 50vh;
+
+    .square {
+      padding-top: 15vh;
+    }
   }
 }
 
 @media (max-width: 600px) {
   .SessaoInicial {
 
+    .square {
+      padding-top: 15vh;
+
+      .text {
+        font-size: 0.6rem;
+      }
+    }
   }
 }
 
 @media (max-width: 390px) {
   .SessaoInicial {
 
+    .square {
+      padding-top: 12vh;
+    }
   }
 }

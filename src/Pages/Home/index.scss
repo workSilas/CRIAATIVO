@@ -52,6 +52,7 @@
             border-radius: 5px;
             border: solid 3px #22B150;
             background-color: #22B150;
+            text-align: center;
           }
 
           a:hover {
@@ -70,144 +71,79 @@
       }
     }
 
-  .sessaoDois {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10vh 2vw;
+    .divisao {
+      h1 {
+        font-family: 'lexend tera';
+        font-size: 2.5rem;
+      }
 
-    .sep {
       display: flex;
-      flex-direction: column;
-      align-items: start;
-      gap: 40px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 3vh 0vw;
+      background-color: #0075FF;
+      color: #fff;
+      font-size: 2rem;
+      font-weight: 800;
+    }
+  }
 
-      img {
-        width: 25vw;
+
+  @media (max-width: 1280px) {
+    .Home {
+
+      .divisao {
+
+        h1 {
+          font-size: 2.5rem;
+        }
       }
+    }
+  }
 
-      .logo {
-        width: 10vw;
-      }
+  @media (max-width: 912px) {
+    .Home {
 
-      .text {
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
+      .Sessao {
+        padding: 2vh 1vw;
 
-        ul {
-          display: flex;
-          flex-direction: column;
+        .sep {
           gap: 20px;
+        }
+      }
 
-          li {
-            font-weight: 700;
-            text-align: start;
+      .divisao {
+
+        h1 {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 600px) {
+    .Home {
+
+      .Sessao {
+
+        .sep {
+
+          .text {
+            gap: 20px;
+            font-size: 0.5rem;
           }
         }
-
-        a {
-          text-decoration: none;
-          font-weight: 500;
-          color: #fff;
-          padding: 1vh 5vw;
-          border-radius: 5px;
-          border: solid 3px #22B150;
-          background-color: #22B150;
-        }
-
-        a:hover {
-          text-decoration: none;
-          font-weight: 500;
-          color: #fff;
-          transition: 0.3s;
-          text-shadow: 0px 0px 10px #fff;
-          box-shadow: 0px 0px 10px #22B150;
-        }
       }
 
-      .end {
-        align-self: flex-end;
+      .divisao {
+        h1 {
+          font-size: 1rem;
+        }
       }
     }
   }
 
-  .sessaoTres {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10vh 2vw;
-
-    .sep {
-      display: flex;
-      flex-direction: column;
-      align-items: start;
-      gap: 40px;
-
-      img {
-        width: 25vw;
-      }
-
-      .logo {
-        width: 10vw;
-      }
-
-      .text {
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-
-        ul {
-          display: flex;
-          flex-direction: column;
-          gap: 20px;
-
-          li {
-            font-weight: 700;
-            text-align: start;
-          }
-        }
-
-        a {
-          text-decoration: none;
-          font-weight: 500;
-          color: #fff;
-          padding: 1vh 5vw;
-          border-radius: 5px;
-          border: solid 3px #22B150;
-          background-color: #22B150;
-        }
-
-        a:hover {
-          text-decoration: none;
-          font-weight: 500;
-          color: #fff;
-          transition: 0.3s;
-          text-shadow: 0px 0px 10px #fff;
-          box-shadow: 0px 0px 10px #22B150;
-        }
-      }
-
-      .end {
-        align-self: flex-end;
-      }
-    }
+  @media (max-width: 390px) {
+    .Home {}
   }
-
-  .divisao {
-    h1{
-      font-family: 'lexend tera';
-    }
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 3vh 0vw;
-    background-color: #0075FF;
-    color: #fff;
-    font-size: 2rem;
-    font-weight: 800;
-  }
-}
