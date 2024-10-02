@@ -12,12 +12,12 @@ export default function Home() {
           <img src="/assets/images/Logo.png" alt="logo" className='logo' />
           <p>{'<div>'}</p>
           <div className='text'>
-            <h1>Nunca foi tão facil criar!</h1>
+            <h1>Nunca foi tão fácil criar!</h1>
             <ul>
               <li>Criamos o seu site perfeito, totalmente do <br />
-                zero,ou reestruturamos um site ja existente !</li>
-              <li>Profíssonais qualificados prontos <br />
-                para transformar o seu site em realidade</li>
+                zero, ou reestruturamos um site ja existente!</li>
+              <li>Profissonais qualificados prontos <br />
+                para transformar o seu site em realidade.</li>
             </ul>
             <Link to="/">CRIAR NOVO TEMPLATE</Link>
           </div>
@@ -30,7 +30,7 @@ export default function Home() {
 
       <div className="divisao">
         <h1>MODERNIDADE <br />
-          E TECNOLOGIA </h1>
+          E TECNOLOGIA</h1>
       </div>
 
       <div className="Sessao" id='invert'>
@@ -38,12 +38,12 @@ export default function Home() {
           <img src="/assets/images/Logo.png" alt="logo" className='logo' />
           <p>{'.section{'}</p>
           <div className='text'>
-            <h1>As mais modernas <br />
-              tecnologias de criação <br />
+            <h1>As mais modernas<br />
+              tecnologias de criação<br />
               web!</h1>
             <ul>
               <li>Usamos as ferramentas e tecnologias mais  <br />
-                avançadas e modernas do mercado, <br />
+                avançadas e modernas do mercado,<br />
                 mantendo seu site sempre no padrão W3C.</li>
             </ul>
             <Link to="/">VER NOSSAS FERRAMENTAS</Link>
@@ -71,7 +71,7 @@ export default function Home() {
               <li>Usamos criptografia de ponta para <br />
                 proteger os dados do seu site e clientes!</li>
               <li>Tecnologia contra ataque e invasão de bots <br />
-                ou hackers</li>
+                ou hackers.</li>
             </ul>
             <Link to="/">VER NOSSAS FERRAMENTAS</Link>
           </div>
@@ -81,9 +81,8 @@ export default function Home() {
           <img src="/assets/images/imagemSessao3.png" alt="imagem3" />
         </div>
       </div>
-
-      <Rodape
-      />
+      
+      <Rodape/>
     </div>
   );
 }
