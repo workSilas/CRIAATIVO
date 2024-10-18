@@ -1,6 +1,4 @@
 import './index.scss';
-
-import { Link } from 'react-router-dom';
 import Rodape from '../../components/Rodape';
 import Nav from '../../components/Nav';
 
