@@ -40,10 +40,6 @@
       a:hover {
         text-decoration: underline;
       }
-
-      img:hover {
-        cursor: pointer;
-      }
     }
 
     #redes {
@@ -67,10 +63,10 @@
     .info {
 
       #redes {
-        text-align: center;
+        text-align: start;
 
         img {
-          width: 13vw;
+          width: 4vw;
         }
       }
     }
@@ -84,15 +80,6 @@
 
     .info {
       font-size: 0.6rem;
-
-
-      #redes {
-        text-align: center;
-
-        img {
-          width: 10vw;
-        }
-      }
     }
   }
 }
@@ -105,18 +92,6 @@
 
     .line {
       height: 0.3vh;
-    }
-
-    .info {
-      font-size: 0.6rem;
-
-      #redes {
-        text-align: center;
-
-        img {
-          width: 10vw;
-        }
-      }
     }
   }
 }
@@ -146,6 +121,10 @@
 
       #redes {
         margin-left: 6vw;
+
+        img {
+          width: 6vw;
+        }
       }
     }
   }

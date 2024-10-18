@@ -1,12 +1,28 @@
 import './index.scss';
-import SessaoInicial from '../../components/sessaoInicial';
+
 import { Link } from 'react-router-dom';
 import Rodape from '../../components/Rodape';
+import Nav from '../../components/Nav';
 
 export default function Home() {
   return (
     <div className="Home">
-      <SessaoInicial />
+      <Nav />
+      <div className="SessaoInicial">
+        <div className='square'>
+          <img src="/assets/images/LogoEstendida.png" alt="criaativo" />
+          <div className='text'>
+            <h1>Um site ajudaria no <br />
+              desenvolvimento do <br />
+              seu negócio?</h1>
+            <p>Somos especializados na criação de páginas <br />
+              webs e sites, que podem impulsionar e trazer <br />
+              mais visibilidade para o seu negócio.</p>
+          </div>
+          <Link to="/">SABER MAIS</Link>
+        </div>
+      </div>
+
       <div className="Sessao">
         <div className="sep">
           <img src="/assets/images/Logo.png" alt="logo" className='logo' />
@@ -81,8 +97,8 @@ export default function Home() {
           <img src="/assets/images/imagemSessao3.png" alt="imagem3" />
         </div>
       </div>
-      
-      <Rodape/>
+
+      <Rodape />
     </div>
   );
 }

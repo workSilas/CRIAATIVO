@@ -10,27 +10,22 @@ export default function Rodape() {
         <div className="content">
           <h1>SOBRE NÓS</h1>
           <Link to={'/'}>QUEM SOMOS</Link>
-          <Link to={'/'}>TERMOS LEGAIS</Link>
-          <Link to={'/'}>PARCEIROS</Link>
         </div>
         <div className="content">
           <h1>SUPORTE</h1>
-          <Link to={'/'}>ATENDIMENTO AO CLIENTE</Link>
-          <Link to={'/'}>CONTA</Link>
-          <Link to={'/'}>CONTATO</Link>
-          <Link to={'/'}>FAQ</Link>
-          <Link to={'/'}>EMAIL</Link>
+          <Link to={`https://wa.me/5511977798407?text=Olá! Gostaria tirar um dúvida.`}>CONTATO</Link>
         </div>
         <div className="content">
           <h1>MAPA DO SITE</h1>
-          <Link to={'/'}>NOVO PROJETO</Link>
-          <Link to={'/'}>NOSSAS FERRAMENTAS</Link>
-          <Link to={'/'}>SOFTWARES</Link>
-          <Link to={'/'}>TEMPLATES</Link>
+          <Link to={'/'}>HOME</Link>
+          <Link to={'/Ferramentas'}>NOSSAS FERRAMENTAS</Link>
         </div>
         <div className="content" id='redes'>
           <h1>SIGA-NOS!</h1>
-          <img src="/assets/images/Redes.png" alt="Redes" />
+          <div className="alinhar">
+            <Link to={'/'}><img src="/assets/images/facebook.png" alt="facebook" /></Link>
+            <Link to={'/'}><img src="/assets/images/instagram.png" alt="instagram" /></Link>
+          </div>
         </div>
       </div>
       <p>COPYRIGHT CRIAATIVO 2024©</p>

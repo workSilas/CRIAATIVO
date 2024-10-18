@@ -1,7 +1,7 @@
 .Nav {
   position: absolute;
   top: 10vh;
-  right: 0vw;
+  left: 30vw;
 
 
   .sessao {
@@ -10,8 +10,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 2vh 2vw;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-radius: 5px;
     text-align: center;
     align-items: center;
     gap: 0.5vw;
@@ -59,7 +58,9 @@
 
 @media (max-width: 912px) {
   .Nav {
-    right: 5vw;
+    top: 20vh;
+    left: 70vw;
+    
 
     .sessao {
       border-radius: 5px;
