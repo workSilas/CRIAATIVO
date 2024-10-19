@@ -62,7 +62,7 @@ export default function Home() {
                 avançadas e modernas do mercado,<br />
                 mantendo seu site sempre no padrão W3C.</li>
             </ul>
-            <Link to="/">VER NOSSAS FERRAMENTAS</Link>
+            <Link to="/Ferramentas">VER NOSSAS FERRAMENTAS</Link>
           </div>
           <p className='end'>{'}'}</p>
         </div>
@@ -89,7 +89,7 @@ export default function Home() {
               <li>Tecnologia contra ataque e invasão de bots <br />
                 ou hackers.</li>
             </ul>
-            <Link to="/">VER NOSSAS FERRAMENTAS</Link>
+            <Link to="/Ferramentas">VER NOSSAS FERRAMENTAS</Link>
           </div>
           <p className='end'>{'}'}</p>
         </div>
