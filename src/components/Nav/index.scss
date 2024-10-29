@@ -3,6 +3,7 @@
   top: 10vh;
   left: 50%;
   transform: translate(-50%, -50%);
+  
 
   .sessaoNavMob {
     display: none;
@@ -22,14 +23,16 @@
     text-align: center;
     align-items: center;
     gap: 0.5vw;
-
+    height: 35px;
+    min-width: 550px;
     a {
       text-decoration: none;
       font-weight: 500;
       color: #fff;
-      padding: 1vh 2vw;
+      /*padding: 1vh 2vw;*/
       border-radius: 5px;
       border: solid 3px #22B150;
+      height: 25px;
     }
 
     a:hover {
