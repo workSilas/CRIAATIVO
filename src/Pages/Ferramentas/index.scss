@@ -83,7 +83,7 @@
         }
 
         p {
-          font-size: 1.2rem;
+          font-size: 1.3rem;
         }
       }
     }
@@ -102,7 +102,7 @@
         }
 
         p {
-          font-size: 1rem;
+          font-size: 1.3rem;
         }
       }
     }
@@ -156,7 +156,7 @@
       }
 
       p {
-        font-size: 0.7rem;
+        font-size: 1rem;
       }
     }
 
@@ -171,7 +171,53 @@
         }
 
         p {
-          font-size: 0.7rem;
+          font-size:16px;
+          width: 75vw;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 599px) {
+  .Ferramentas {
+    gap: 6vh;
+
+    .sessaoInicial {
+      height: 50vh;
+
+      img {
+        width: 20vw;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .figma{
+      height: 68vh;
+    }
+    .sessaoTexto {
+      height: 61vh;
+      
+      
+      .complicacao{
+        height: 490px;
+      }
+      .conteudo {
+        gap: 2vh;
+
+        h2 {
+          font-size: 2rem;
+        }
+
+        p {
+          font-size:16px;
           width: 75vw;
         }
       }
@@ -185,24 +231,75 @@
 
     .sessaoInicial {
       gap: 3vh;
+      padding: 0px 30px;
 
 
       p {
-        font-size: 0.6rem;
+        font-size: 16px;
       }
     }
-
+    .figma{
+      padding-top: px;
+      
+    }
     .sessaoTexto {
-      height: 40vh;
-
+      height: 580px;
+      background-color: #CCCDFA;
+      .complicacao{
+        height: 62vh;
+       /* margin-top: 150px;*/
+      }
       .conteudo {
-
+        gap: 30px;
+        img{
+          width: 250px;
+        }
         h2 {
           font-size: 2rem;
         }
 
         p {
-          font-size: 0.6rem;
+          font-size: 14px;
+          width: 75vw;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .Ferramentas {
+    gap: 5vh;
+
+    .sessaoInicial {
+      gap: 3vh;
+
+
+      p {
+        font-size: 16px;
+      }
+    }
+    .figma{
+      
+      
+    }
+    .sessaoTexto {
+      height: 100%;
+      .complicacao{
+        height: 100%;
+      
+      }
+      .conteudo {
+        gap: 30px;
+        img{
+          width: 250px;
+        }
+        h2 {
+          font-size: 2rem;
+        }
+
+        p {
+          font-size: 16px;
           width: 75vw;
         }
       }
