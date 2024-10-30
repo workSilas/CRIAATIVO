@@ -31,7 +31,7 @@ export default function Ferramentas() {
       </div>
 
       <div className="sessaoTexto">
-        <div className="conteudo">
+        <div className="complicacao conteudo">
           <h2>Back-end e API</h2>
           <p>Também cuidamos do Back-end do seu site, tanto na modelação de dados, usando a linguagem <b style={{ color: "#2F00FF" }}>SQL</b>, como na criação e desenvolvimento de aplicações web (<b style={{ color: "#02B507" }}>API</b>).
             Desenvolvemos <b style={{ color: "#02B507" }}>API</b> em <b style={{ color: "#0C5602" }}>NodeJs</b>, um dos softwares de melhor desempenho quando se trata de criação de <b style={{ color: "#02B507" }}>API</b> e aplicaçôes webs.</p>
@@ -40,8 +40,8 @@ export default function Ferramentas() {
         </div>
       </div>
 
-      <div className="sessaoTexto">
-        <div className="conteudo">
+      <div className="sessaoTexto figma">
+        <div className="complicacao conteudo">
           <h2>Projetos do <b style={{color: "#FC1114"}}>F</b><b style={{color: "#F5595B"}}>i</b><b style={{color: "#AE35F2"}}>g</b><b style={{color: "#37BE45"}}>m</b><b style={{color: "#07A1DE"}}>a</b></h2>
           <p>Transformamos o seu desing do Figma em uma página web, bastar nos compartilhar seu projeto Figma seguindo o seguinte passo:<br/>
             1: Com seu projeto Figma aberto, clique em <b style={{ color: "#fff", fontWeight: 12, backgroundColor: "#07A1DE", paddingLeft: 3, paddingRight: 3, borderRadius: 5 }}>Share</b> no canto superior direito.<br/>
