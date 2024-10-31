@@ -39,6 +39,15 @@ export default function Ferramentas() {
           <p>Trabalhamos com banco de dados <b style={{ color: "#2F00FF" }}>MySQL</b>, que é um dos mais utilizados no mercado da tecnologia pelas grandes empresas,  criamos a estrutura e base de dados, e deixamos pronta para a sua página web.</p>
         </div>
       </div>
+      <div className="sessaoTexto">
+        <div className="complicacao conteudo">
+          <h2>Segurança e criptografia</h2>
+          <p>Nós trabalhamos com proteção e criptografia <b style={{ color: "#ff087f" }}>JWT</b> , que garante a segurança do seu web site, por meio de criação de tokens criptografados</p>
+          <img src="/assets/images/imagemCRIPTOGRAFIA.png" alt="criptografia" className='imgcripto'/>
+          <p>Nossos servidores também são protegidos com backups diários, e configurações de controle de acesso <b style={{ color: "red" }}>Firewall</b>, que é de suma importância para garantir a segurança dos dados do seu site!</p>
+        </div>
+      </div>
+
 
       <div className="sessaoTexto figma">
         <div className="complicacao conteudo">
