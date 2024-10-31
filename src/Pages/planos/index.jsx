@@ -1,7 +1,46 @@
 import './index.scss';
 import Nav from '../../components/Nav';
+import { useState } from 'react';
 
 export default function Planos(){
+
+  const [qtd_pag_simples,setQtd_pags] = useState(1);
+  const [preco_pag_simples,setPreco_pag_simples] = useState(600.00)
+
+  function Incluir(e){
+    let incluiu_hospedagem = e.target.checked;
+    if(incluiu_hospedagem == true){
+      setPreco_pag_simples(preco_pag_simples + 120)
+    }
+    }
+
+
+  function NaoIncluir(e){
+  let nao_incluiu_hospedagem = e.target.checked;
+  if(nao_incluiu_hospedagem == true){
+    setPreco_pag_simples(preco_pag_simples - 120)
+  }
+}
+
+
+
+  function Adicionou(){
+    if(qtd_pag_simples<4)
+    setQtd_pags(qtd_pag_simples +1)
+    if(preco_pag_simples < 960){
+    setPreco_pag_simples(preco_pag_simples + 120)}
+
+  }
+
+  function Subtraiu(){
+    if(qtd_pag_simples > 1){
+      setQtd_pags(qtd_pag_simples -1)
+      setPreco_pag_simples(preco_pag_simples - 120)
+  }
+
+  }
+    
+
 
     return(
 
@@ -24,16 +63,20 @@ export default function Planos(){
 
       <div className="sessaoTexto superior-planos">
         <div className="conteudo planos">
-          <h2>Passo 1<br />
-            escolha do plano</h2>
+         
                         
                     <div className='divisor'>
                            <div className='paragrafo'>
+                                <img src="./assets/images/Logo.png" alt="" />
+                                <p className='start'>{'<div>'}</p>
+                                <h1>Passo 1<br/>
+                                escolha do plano</h1>
                                 <p>Oferecemos planos de desenvolvimentos web para todas as necessidades, desde páginas webs simples, ou sites avançados.
                                 Primeiro deve escolher qual plano se encaixa melhor a sua necessidade, após escolher qual plano deseja, será possivel configurar o plano
                                 escolhendo: quantidade de páginas, incluir hospedagem e base de tratamento de dados e dentre outros para que o plano fique ainda mais flexível a sua necessiadade.
                                 </p>
-                            </div>     
+                                <p className='end'>{'</div>'}</p>
+                            </div>   
                         <img src="./assets/images/imagemPlanos.png" alt="" />
                     </div> 
 
@@ -46,18 +89,22 @@ export default function Planos(){
         
       <div className="sessaoTexto superior-planos">
         <div className="conteudo planos">
-          <h2>Passo 2<br />
-            contato com nossa equipe</h2>
+          
                         
                     <div className='divisor'>
                             <img src="./assets/images/imagemEQUIPE.png" alt="" />
                            <div className='paragrafo'>
+                           <img src="./assets/images/Logo.png" alt="" />
+                           <p className='start'>{'.section{'}</p>
+                           <h1>Passo 2<br />contato com nossa equipe </h1>
                                 <p>Após escolher e configurar o plano, você poderá ver o valor estimado para a criação do seu web site, que pode variar de acordo com a configuração do seu plano, e da complexidade da página. Assim que configurar seu plano, nossa equipe entrará em contato via email ou whatsapp
                                     para atendelo e começar o processo de triagem do seu projeto, passando o preço final e o prazo de entrega para a sua página web ou web site.
                                 </p>
+                                <p className='end'>{'}'}</p>
                             </div>     
                         
                     </div> 
+                    
 
             
 
@@ -72,18 +119,81 @@ export default function Planos(){
       </div>
       
         
-      <div className="sessaoTexto superior-planos">
-                    <div className="conteudo planos">
+      <div className="paginas">
+                    <div className="conteudo paginaweb">
         
-                                <div className='divisor'>
-                                    <div className='paragrafo'>
-                                            <p>Oferecemos planos de desenvolvimentos web para todas as necessidades, desde páginas webs simples, ou sites avançados.
-                                            Primeiro deve escolher qual plano se encaixa melhor a sua necessidade, após escolher qual plano deseja, será possivel configurar o plano
-                                            escolhendo: quantidade de páginas, incluir hospedagem e base de tratamento de dados e dentre outros para que o plano fique ainda mais flexível a sua necessiadade.
-                                            </p>
-                                        </div>     
-                                    <img src="./assets/images/imagemPlanos.png" alt="" />
-                                </div> 
+                          <div className='esquerda'>
+                                <p>Página de exemplo</p>
+                                <img src="./assets/images/EXEMPLO.jpg" alt="" />
+                          </div>
+                          <div className='direita'>
+
+
+
+
+                                <div className='bloco-superior'>
+                                        <div className='txt-1'>      
+                                            <h1>Página web Front-end simples</h1>
+                                            <p>Web site com Páginas Front-end de Landing page e página de apresentação de serviço ou produtos, recomendamos este plano para autônomos ou MEI que prestam serviços ou produtos ex: luthieria, serviços de faxina, serviços de creches ou cuidador de pessoas, oficinas, assistências técnicas etc.</p>
+                                        </div>
+                                        <div className='detalhes-planos'>
+                                            <h2>Detalhes do plano</h2>
+                                            <ul>
+                                              <li>Apenas Front-end</li>
+                                              <li>Manuntenções e alterações nas páginas</li>
+                                              <li>DNS, Domínio e Hospedagem já inclusos (renovação será cobrada 1 vez ao ano no valor de RS:120,00)</li>
+                                            </ul>
+
+                                        </div>      
+                                </div>
+
+
+
+
+                                <div className='bloco-inferior'>
+
+                                    <div className='titu-config-plano'>
+                                      <h2>Configure o plano</h2>
+                                    </div>
+
+                                            <div className='sessaoConfig'>
+                                                          <div className='faixa-configuracao'>
+                                                                  <h3>Quantidade de páginas</h3>
+                                                                  <button onClick={Subtraiu}>-</button>
+
+                                                                  <h4>{qtd_pag_simples}</h4>
+
+                                                                  <button onClick={Adicionou}>+</button>
+
+                                                                  <p>Máximo do plano: 4 | valor médio de cada página: 120,00</p>
+                                                          
+                                                          
+                                                          
+                                                          
+                                                          
+                                                          </div>
+                                                          <div className='faixa-configuracao'><h3>Hospedagem</h3>
+                                                              <input type="radio" name='incluir-hospedagem' onChange={Incluir}/>Incluir
+                                                              <input type="radio" name='incluir-hospedagem'onChange={NaoIncluir}/>Não incluir
+                                                              <p className='hospedagem-preco'>R$ 120,00 mensal</p>
+                                                          
+                                                          
+                                                          </div>
+                                                
+
+                                            </div>
+
+
+                                            <div className='preco-plano'>
+                                              <p>Preço final pode alterar de acordo com a configuração do plano, e complexidade das páginas </p>
+                                              <h1>{preco_pag_simples}</h1>
+                                            </div>
+
+
+
+
+                                    </div>
+                          </div>
 
                     </div>
         
