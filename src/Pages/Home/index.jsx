@@ -35,7 +35,7 @@ export default function Home() {
               <li>Profissonais qualificados prontos <br />
                 para transformar o seu site em realidade.</li>
             </ul>
-            <Link to="/">CRIAR NOVO TEMPLATE</Link>
+            <Link to="/Planos">VER PLANOS</Link>
           </div>
           <p className='end'>{'</div>'}</p>
         </div>
