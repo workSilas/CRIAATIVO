@@ -1,6 +1,7 @@
 import './index.scss';
 import Nav from '../../components/Nav';
 import { useState } from 'react';
+import Rodape from '../../components/Rodape'
 
 export default function Planos() {
 
@@ -352,11 +353,11 @@ export default function Planos() {
           </div>
 
         </div>
-
+        
       </div>
 
-
-
+      <Rodape/>
+    
     </div>
 
   )
