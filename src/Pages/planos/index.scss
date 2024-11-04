@@ -1,963 +1,800 @@
-.paginas {
-background-color: #CCCDFA;
-height: 130vh;
 
-
-.paginaweb {
-background-image: none;
-border-radius: 0px;
+.Pagina-planos{
 display: flex;
-flex-direction: row;
-gap: 50px;
-justify-content: center;
-padding: 50px 50px;
-height: 130vh;
-
-.esquerda {
-height: 100%;
-background-color: #fff;
-width: 45%;
-border-radius: 5px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-gap: 10px;
-
-p {
-text-align: start;
-color: #707070;
-}
-
-img {
-width: auto;
-    height: 80%;
-}
-}
-
-.direita {
-height: 100%;
-/*background-color: #fff;*/
-width: 45%;
-border-radius: 5px;
-display: flex;
-align-items: center;
-flex-direction: column;
-justify-content: center;
-
-.bloco-superior {
-width: 100%;
-height: 60%;
-background-color: #fff;
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 25px;
-padding-top: 60px;
+flex-direction: column; 
 
 
-.txt-1 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-    width: 90%;
-}
-
-.detalhes-planos {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: start;
-    width: 90%;
-
-    li {
-        margin-bottom: 5px;
-        font-size: 1.2rem;
-    }
-
-
-}
-
-h1 {
-    font-size: 1.7rem;
-    font-family: 'Roboto';
-    font-weight: 500;
-    color: #8A25C3;
-}
-
-h2 {
-    font-size: 1.3rem;
-    font-family: 'Roboto';
-    font-weight: 500;
-    color: #8A25C3;
-}
-
-p {
-    width: 100%;
-    text-align: start;
-    font-size: 1.2rem;
-}
-}
-
-.bloco-inferior {
-width: 100%;
-height: 40%;
-background-color: #fff;
-display: flex;
-flex-direction: column;
-padding-top: 30px;
-
-.titu-config-plano {
-    height: 15%;
-    width: 100%;
-    /*background-color: #0075FF;*/
-    padding-left: 25px;
-    display: flex;
-    align-items: center;
-
-    h2 {
-        font-size: 1.3rem;
-        font-family: 'Roboto';
-        font-weight: 500;
-        color: #8A25C3;
-    }
-
-}
-
-.sessaoConfig {
-    height: 65%;
-    width: 100%;
-    /*background-color: #9fccff;*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 25px;
-    gap: 20px;
-
-    .faixa-configuracao {
-        width: 95%;
-        height: 30%;
-        background-color: #DFD9D9;
-        border-radius: 3px;
+    .paginas {
+        background-color: #fff;
+        height: 130vh;
         display: flex;
         align-items: center;
-        flex-direction: row;
-        padding-left: 20px;
-        gap: 25px;
 
-        button {
-            color: #fff;
-            background-color: #0075FF;
-            border: solid 3px #fff;
-            width: 5%;
-            height: auto;
-            font: 700;
-        }
-
-        h3 {
-            font-size: 1rem;
-            font-family: 'Roboto';
-            font-weight: 400;
-            color: #000;
-        }
-
-        h4 {
-            font-size: 1.4rem;
-            font-family: 'lexend tera';
-            font-weight: 400;
-            color: #000;
-
-        }
-
-        p {
-            color: #3C3C3C;
-
-
-        }
-
-        select {
-            width: 20%;
-            border: none;
-            font-size: 18px;
-            color: #0075FF;
-        }
-
-        .hospedagem-preco {
-            justify-self: end;
-        }
-    }
-
-}
-
-.preco-plano {
-    height: 10%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    padding: 0px 10px;
-    justify-content: space-between;
-
-    p {
-        width: 70%;
-        color: #3C3C3C;
-    }
-
-    h1 {
-        font-family: 'lexend tera';
-        color: #8A25C3;
-    }
-}
-
-
-
-
-
-
-}
-
-
-
-
-
-
-}
-}
-}
-
-
-
-.superior-planos {
-height: 90vh;
-align-items: start;
-
-
-
-.planos {
-background-image: none;
-background-color: #ffff;
-border-radius: 0px;
-gap: 10px;
-text-align: center;
-height: 90vh;
-width: 100%;
-display: flex;
-flex-direction: row;
-justify-content: center;
-
-
-
-.divisor {
-/* background-color: #0075FF;*/
-width: 80%;
-height: 80%;
-display: flex;
-align-items: center;
-gap: 30px;
-
-img {
-width: 50%;
-}
-
-.paragrafo {
-width: 60%;
-/*background-color: #fff;*/
-display: flex;
-flex-direction: column;
-align-items: start;
-gap: 8px;
-
-.start {
-    font-size: 16px;
-}
-
-.end {
-    text-align: end;
-    font-size: 16px;
-}
-
-h1 {
-    font-family: 'Roboto';
-    font-weight: 500;
-    text-align: start;
-    font-size: 35px;
-}
-
-img {
-    width: 8vw;
-}
-
-p {
-    width: 100%;
-    text-align: start;
-    font-size: 1.5rem;
-
-}
-}
-}
-}
-
-}
-
-.divisao {
-h1 {
-font-family: 'lexend tera';
-font-size: 2.5rem;
-}
-
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-padding: 3vh 0vw;
-background-color: #0075FF;
-color: #fff;
-font-size: 2rem;
-font-weight: 800;
-}
-
-@media(max-width:1360px) {
-.superior-planos {
-height: 100vh;
-.planos {
-height: 100%;
-
-.divisor {
-height: 80%;
-
-.paragrafo {
-    height: 100%;
-    gap: 10px;
-    font-size: 5px;
-    p{
-        font-size: 1rem;
-    }
-}
-}
-}
-}
-
-
-.paginas {
-
-height: 130vh;
-
-
-.paginaweb {
-gap: 50px;
-padding: 50px 50px;
-height: 130vh;
-
-.esquerda {
-height: 100%;
-background-color: #fff;
-width: 45%;
-border-radius: 5px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-gap: 10px;
-
-p {
-    text-align: start;
-    color: #707070;
-}
-
-img {
-    width: auto;
-    height: 60%;
-}
-}
-
-.direita {
-height: 100%;
-width: 45%;
-border-radius: 5px;
-
-justify-content: space-between;
-
-.bloco-superior {
-    width: 100%;
-    height: 60%;
-    gap: 15px;
-    padding-top: 15px;
-
-
-    .txt-1 {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        align-items: center;
-        width: 90%;
-    }
-
-    .detalhes-planos {
-        gap: 20px;
-        width: 90%;
-
-        li {
-            margin-bottom: 1px;
-            font-size: 1rem;
-        }
-
-
-    }
-
-    h1 {
-        font-size: 1.7rem;
-        font-family: 'Roboto';
-        font-weight: 500;
-        color: #8A25C3;
-    }
-
-    h2 {
-        font-size: 1.3rem;
-        font-family: 'Roboto';
-        font-weight: 500;
-        color: #8A25C3;
-    }
-
-    p {
-        width: 100%;
-        text-align: start;
-        font-size: 1.2rem;
-    }
-}
-
-.bloco-inferior {
-    width: 100%;
-    height: 40%;
-    padding-top: 10px;
-
-    .titu-config-plano {
-        height: 15%;
-        width: 100%;
-        padding-left: 25px;
-
-        h2 {
-            font-size: 1.3rem;
-            font-family: 'Roboto';
-            font-weight: 500;
-        }
-
-    }
-
-    .sessaoConfig {
-        height: 65%;
-        width: 100%;
-        padding: 10px 25px;
-        gap: 20px;
-
-        .faixa-configuracao {
-            width: 95%;
-            height: 30%;
-            border-radius: 3px;
+        .paginaweb {
+            background-image: none;
             display: flex;
-            padding-left: 20px;
-            gap: 25px;
-
-            button {
-                width: 8%;
-                height: auto;
-                font: 700;
-            }
-
-            h3 {
-                font-size: 1rem;
-                font-family: 'Roboto';
-                font-weight: 400;
-
-            }
-
-            h4 {
-                font-size: 1.4rem;
-                font-family: 'lexend tera';
-                font-weight: 400;
-
-
-            }
-
-            p {
-                font-size: 12px;
-
-            }
-
-            select {
-                width: 20%;
-
-                font-size: 18px;
-
-            }
-
-            .hospedagem-preco {}
-        }
-
-    }
-
-    .preco-plano {
-        height: 10%;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        padding: 0px 10px;
-        justify-content: space-between;
-
-        p {
-            width: 70%;
-            color: #3C3C3C;
-        }
-
-        h1 {
-            font-family: 'lexend tera';
-            color: #8A25C3;
-        }
-    }
-
-
-
-
-
-
-}
-
-
-
-
-
-
-}
-}
-}
-
-}
-
-
-
-
-@media(max-width:1280px) {
-@media(max-width:1360px) {
-.superior-planos {
-.planos {
-padding: 20px 40px;
-
-.divisor {
-    height: 550px;
-
-    .paragrafo {
-        height: 100%;
-        gap: 10px;
-    }
-}
-}
-}
-
-
-.paginas {
-
-height: 130vh;
-
-
-.paginaweb {
-gap: 50px;
-padding: 50px 50px;
-height: 130vh;
-
-.esquerda {
-    height: 100%;
-    background-color: #fff;
-    width: 45%;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-
-    p {
-        text-align: start;
-        color: #707070;
-    }
-
-    img {
-        width: auto;
-        height: 60%;
-    }
-}
-
-.direita {
-    height: 100%;
-    width: 45%;
-    border-radius: 5px;
-
-    .bloco-superior {
-        width: 100%;
-        height: 60%;
-        gap: 15px;
-        padding-top: 15px;
-
-
-        .txt-1 {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
+            flex-direction: row;
+            
+            justify-content: center;
             align-items: center;
-            width: 90%;
-        }
+        
+            height: 90%;
 
-        .detalhes-planos {
-            gap: 20px;
-            width: 90%;
-
-            li {
-                margin-bottom: 1px;
-                font-size: 1rem;
-            }
-
-
-        }
-
-        h1 {
-            font-size: 1.7rem;
-            font-family: 'Roboto';
-            font-weight: 500;
-            color: #8A25C3;
-        }
-
-        h2 {
-            font-size: 1.3rem;
-            font-family: 'Roboto';
-            font-weight: 500;
-            color: #8A25C3;
-        }
-
-        p {
-            width: 100%;
-            text-align: start;
-            font-size: 1.2rem;
-        }
-    }
-
-    .bloco-inferior {
-        width: 100%;
-        height: 40%;
-        padding-top: 10px;
-
-        .titu-config-plano {
-            height: 15%;
-            width: 100%;
-            padding-left: 25px;
-
-            h2 {
-                font-size: 1.3rem;
-                font-family: 'Roboto';
-                font-weight: 500;
-            }
-
-        }
-
-        .sessaoConfig {
-            height: 65%;
-            width: 100%;
-            padding: 10px 25px;
-            gap: 20px;
-
-            .faixa-configuracao {
-                width: 95%;
-                height: 30%;
-                border-radius: 3px;
+            .esquerda {
+                height: 100%;
+                width: 45%;
                 display: flex;
-                padding-left: 20px;
-                gap: 25px;
-
-                button {
-                    width: 8%;
-                    height: auto;
-                    font: 700;
-                }
-
-                h3 {
-                    font-size: 1rem;
-                    font-family: 'Roboto';
-                    font-weight: 400;
-
-                }
-
-                h4 {
-                    font-size: 1.4rem;
-                    font-family: 'lexend tera';
-                    font-weight: 400;
-
-
-                }
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 30px;
 
                 p {
-                    font-size: 12px;
-
+                    color: #707070;
                 }
 
-                select {
-                    width: 20%;
-
-                    font-size: 18px;
-
+                img {
+                    width: auto;
+                    height: 80%;
                 }
-
-                .hospedagem-preco {}
             }
 
-        }
+            .direita {
+                height: 100%;
+                width: 45%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
 
-        .preco-plano {
-            height: 10%;
+                .bloco-superior {
+                    width: 100%;
+                    height: 60%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+
+
+                    .txt-1 {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        align-items: center;
+                        width: 90%;
+                        
+                    p {
+                            width: 100%;
+                            text-align: start;
+                            font-size: 1.2rem;
+                        }
+
+                    }
+
+                    .detalhes-planos {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        align-items: start;
+                        width: 90%;
+
+                        li {
+                            margin-bottom: 5px;
+                            font-size: 1.2rem;
+                        }
+
+                    }
+
+                    h1 {
+                        font-size: 1.7rem;
+                        font-family: 'Roboto';
+                        font-weight: 500;
+                        color: #8A25C3;
+                    }
+
+                    h2 {
+                        font-size: 1.3rem;
+                        font-family: 'Roboto';
+                        font-weight: 500;
+                        color: #8A25C3;
+                    }
+                }
+
+                .bloco-inferior {
+                    width: 100%;
+                    height: 44%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    flex-direction: column;
+                    padding: 0px 10px;
+                    .titu-config-plano {
+                        height: 15%;
+                        width: 100%;
+                        padding-left:25px;
+                        display: flex;
+                        align-items: center;
+
+                        h2 {
+                            font-size: 1.3rem;
+                            font-family: 'Roboto';
+                            font-weight: 500;
+                            color: #8A25C3;
+                        }
+
+                    }
+
+                    .sessaoConfig {
+                        height: 60%;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: space-evenly;
+                
+
+                        .faixa-configuracao {
+                            width: 100%;
+                            height: 60px;
+                            background-color: #DFD9D9;
+                            border-radius: 3px;
+                            display: flex;
+                            align-items: center;
+                            flex-direction: row;
+                            padding-left: 20px;
+                            gap: 25px;
+
+                            button {
+                                color: #fff;
+                                background-color: #0075FF;
+                                border: solid 3px #fff;
+                                width: 28px;
+                                height: auto;
+                                font: 700;
+                            }
+
+                            h3 {
+                                font-size: 1rem;
+                                font-family: 'Roboto';
+                                font-weight: 400;
+                                color: #000;
+                            }
+
+                            h4 {
+                                font-size: 1.4rem;
+                                font-family: 'lexend tera';
+                                font-weight: 400;
+                                color: #000;
+
+                            }
+
+                            p {
+                                color: #3C3C3C;
+                            }
+
+                            select {
+                                width: 20%;
+                                border: none;
+                                font-size: 18px;
+                                color: #0075FF;
+                            }
+
+                            .hospedagem-preco {
+                                justify-self: end;
+                            }
+                        }
+
+                    }
+
+                    .preco-plano {
+                        height:max-content;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+
+                        p {
+                            width: 70%;
+                            color: #3C3C3C;
+                        }
+
+                        h1 {
+                            font-family: 'lexend tera';
+                            color: #8A25C3;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .superior-planos {
+        height: 90vh;
+        .planos {
+            border-radius: 0%;
+            background-image: none;
+            background-color: #ffff;
+            text-align: center;
+            height: 90vh;
             width: 100%;
             display: flex;
             flex-direction: row;
-            padding: 0px 10px;
-            justify-content: space-between;
-
-            p {
-                width: 70%;
-                color: #3C3C3C;
-            }
-
-            h1 {
-                font-family: 'lexend tera';
-                color: #8A25C3;
-            }
-        }
-
-
-
-
-
-
-    }
-
-
-
-
-
-
-}
-}
-}
-
-}
-
-
-}
-
-@media(max-width:1160px) {
-
-.superior-planos {
-.planos {
-padding: 20px 10px;
-height: 100%;
-
-.divisor {
-    height: 550px;
-
-    .paragrafo {
-        height: 100%;
-        gap: 10px;
-    }
-}
-}
-}
-
-
-.paginas {
-
-height: 120vh;
-
-
-.paginaweb {
-gap: 50px;
-padding: 50px 50px;
-height: 110vh;
-
-.esquerda {
-    height: 100%;
-    background-color: #fff;
-    width: 45%;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-
-    p {
-        text-align: start;
-        color: #707070;
-    }
-
-    img {
-        width: auto;
-        height: 60%;
-    }
-}
-
-.direita {
-    height: 100%;
-    width: 45%;
-    border-radius: 5px;
-
-    justify-content: space-between;
-    .bloco-superior {
-        width: 100%;
-        height: 60%;
-        gap: 15px;
-        padding-top: 15px;
-
-
-        .txt-1 {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            align-items: center;
-            width: 90%;
-        }
-
-        .detalhes-planos {
-            gap: 10px;
-            width: 95%;
-
-            li {
-                margin-bottom: 1px;
-                font-size: 14px;
-            }
-
-
-        }
-
-        h1 {
-            font-size: 1.7rem;
-            font-family: 'Roboto';
-            font-weight: 500;
-            color: #8A25C3;
-        }
-
-        h2 {
-            font-size: 1.3rem;
-            font-family: 'Roboto';
-            font-weight: 500;
-            color: #8A25C3;
-        }
-
-        p {
-            width: 100%;
-            text-align: start;
-            font-size: 1.2rem;
-        }
-    }
-
-    .bloco-inferior {
-        width: 100%;
-        height: 40%;
-        padding-top: 10px;
-
-        .titu-config-plano {
-            height: 15%;
-            width: 100%;
-            padding-left: 25px;
-
-            h2 {
-                font-size: 1.3rem;
-                font-family: 'Roboto';
-                font-weight: 500;
-            }
-
-        }
-
-        .sessaoConfig {
-            height: 55%;
-            width: 100%;
-            padding: 10px 25px;
-            gap: 10px;
-
-            .faixa-configuracao {
-                width: 95%;
-                height: 30%;
-                border-radius: 3px;
+            justify-content: center;
+            padding: 0px;
+            .divisor {
+                width: 80%;
+                height: 80%;
                 display: flex;
-                padding: 0px 5px;
-                gap: 8px;
+                align-items: center;
+                gap: 10px;
 
-                button {
-                    width: 8%;
-                    height: auto;
-                    font: 700;
+                img {
+                    width: 50%;
                 }
 
-                h3 {
-                    font-size: 1rem;
-                    font-family: 'Roboto';
-                    font-weight: 400;
+                .paragrafo {
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    gap: 8px;
 
+                    .start {
+                        font-size: 16px;
+                    }
+
+                    .end {
+                        text-align: end;
+                        font-size: 16px;
+                    }
+
+                    h1 {
+                        font-family: 'Roboto';
+                        font-weight: 500;
+                        text-align: start;
+                        font-size: 35px;
+                    }
+
+                    img {
+                        width: 8vw;
+                    }
+
+                    p {
+                        width: 100%;
+                        text-align: start;
+                        font-size: 1.1rem;
+
+                    }
                 }
-
-                h4 {
-                    font-size: 1.4rem;
-                    font-family: 'lexend tera';
-                    font-weight: 400;
-
-
-                }
-
-                p {
-                    font-size: 12px;
-
-                }
-
-                select {
-                    width: 20%;
-
-                    font-size: 18px;
-
-                }
-
-                .hospedagem-preco {}
-            }
-
-        }
-
-        .preco-plano {
-            height: 10%;
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            padding: 0px 10px;
-            justify-content: space-between;
-
-            p {
-                width: 70%;
-                color: #3C3C3C;
-            }
-
-            h1 {
-                font-family: 'lexend tera';
-                color: #8A25C3;
             }
         }
-
-
-
-
-
 
     }
 
+    .divisao {
+        h1 {
+            font-family: 'lexend tera';
+            font-size: 2.5rem;
+        }
 
-
-
-
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 3vh 0vw;
+        background-color: #0075FF;
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 800;
+    }
 }
-}
+
+    @media(max-width:1360px) {
+.Pagina-planos{
+    display: flex;
+    flex-direction: column; 
+    
+        .superior-planos {
+            .planos {
+                height: 100%;
+                border-radius: 0px;
+                .divisor {
+                    height: 80%;
+
+                    .paragrafo {
+                        height: 100%;
+                        gap: 10px;
+                        font-size: 5px;
+
+                        p {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+
+    .paginas {
+    height: 135vh;
+
+        .paginaweb {
+        height: 100%;
+
+            .esquerda {
+            
+                p {
+                    text-align: start;
+                    color: #707070;
+                }
+
+                img {
+                    width: auto;
+                    height: 70%;
+                }
+            }
+
+            .direita {
+            
+
+                .bloco-superior {
+                height: 45%;
+
+                    .txt-1 {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        align-items: center;
+                        width: 90%;
+                    }
+
+                    .detalhes-planos {
+                        gap: 20px;
+                        width: 90%;
+
+                        li {
+                            margin-bottom: 1px;
+                            font-size: 1rem;
+                        }
+
+
+                    }
+
+                    h1 {
+                        font-size: 1.7rem;
+                        font-family: 'Roboto';
+                        font-weight: 500;
+                        color: #8A25C3;
+                    }
+
+                    h2 {
+                        font-size: 1.3rem;
+                        font-family: 'Roboto';
+                        font-weight: 500;
+                        color: #8A25C3;
+                    }
+
+                    p {
+                        width: 100%;
+                        text-align: start;
+                        font-size: 1.2rem;
+                    }
+                }
+                .bloco-inferior {
+                    width: 100%;
+                    height: 35%;
+                    .titu-config-plano {
+                        height: 15%;
+                        width: 100%;
+                        padding-left: 25px;
+
+                        h2 {
+                            font-size: 1.3rem;
+                            font-family: 'Roboto';
+                            font-weight: 500;
+                        }
+                    }
+                    .sessaoConfig {
+                        .faixa-configuracao {
+                            width: 95%;
+                            height: 30%;
+                            border-radius: 3px;
+                            display: flex;
+                            padding-left: 20px;
+                            gap: 25px;
+
+                            button {   
+                            }
+                            h3 {
+                                font-size: 1rem;
+                                font-family: 'Roboto';
+                                font-weight: 400;
+                            }
+                            h4 {
+                                font-size: 1.4rem;
+                                font-family: 'lexend tera';
+                                font-weight: 400;
+                            }
+                            p {
+                                font-size: 12px;
+                            }
+                            select {
+                                width: 20%;
+                                font-size: 18px;
+
+                            }
+
+                            .hospedagem-preco {}
+                        }
+
+                    }
+
+                    .preco-plano {
+                        height: max-content;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        padding: 0px 10px;
+                        justify-content: space-between;
+
+                        p {
+                            width: 70%;
+                            color: #3C3C3C;
+                        }
+
+                        h1 {
+                            font-family: 'lexend tera';
+                            color: #8A25C3;
+                        }
+    }
+    }
+    }
+    }
+    }
+    }
 }
 
-}
+@media(max-width:970px) {
+    .Pagina-planos{
+        display: flex;
+        flex-direction: column; 
+        
+            .superior-planos {
+                height: 75vh;
+                .planos {
+                    height: 100%;
+                    border-radius: 0px;
 
+                    .divisor {
+                        height: 80%;
+                        width: 90%;
+    
+                        .paragrafo {
+                            height: 100%;
+                            gap: 10px;
+                            font-size: 5px;
+    
+                            p {
+                                font-size: 1rem;
+                            }
+                        }
+                    }
+                }
+            }
+    
+        .paginas {
+        height: 110vh;
+    
+            .paginaweb {
+            height: 100%;
+                
+                .esquerda {
 
+                    p {
+                        text-align: start;
+                        color: #707070;
+                    }
+    
+                    img {
+                        width: auto;
+                        height: 54%;
+                    }
+                }
+    
+                .direita {
+
+    
+                    .bloco-superior {
+                    height: 45%;
+    
+                        .txt-1 {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+                            align-items: center;
+                            width: 90%;
+                            h1 {
+                                font-size: 1.3rem;
+                                font-family: 'Roboto';
+                                font-weight: 500;
+                                color: #8A25C3;
+                            }
+                            p {
+                                width: 100%;
+                                text-align: start;
+                                font-size: 0.8rem;
+                            }
+                        }
+    
+                        .detalhes-planos {
+                            gap: 20px;
+                            width: 90%;
+                            li {
+                                margin-bottom: 1px;
+                                font-size: 0.8rem;
+                            }
+                        }
+                        h2 {
+                            font-size: 1rem;
+                            font-family: 'Roboto';
+                            font-weight: 500;
+                            color: #8A25C3;
+                        }
+    
+                        
+                    }
+                    .bloco-inferior {
+                        width: 100%;
+                        height: 35%;
+                        .titu-config-plano {
+                            height: 15%;
+                            width: 100%;
+                            padding-left: 25px;
+    
+                            h2 {
+                                font-size: 1.3rem;
+                                font-family: 'Roboto';
+                                font-weight: 500;
+                            }
+                        }
+                        .sessaoConfig {
+                            .faixa-configuracao {
+                                width: 95%;
+                                height: 30%;
+                                border-radius: 3px;
+                                display: flex;
+                                padding-left: 10px;
+                                gap: 12px;
+                                
+                                button {   
+                                }
+                                h3 {
+                                    font-size: 0.8rem;
+                                    font-family: 'Roboto';
+                                    font-weight: 400;
+                                }
+                                h4 {
+                                    font-size: 1rem;
+                                    font-family: 'lexend tera';
+                                    font-weight: 400;
+                                }
+                                p {
+                                    font-size: 12px;
+                                }
+                                select {
+                                    width: 20%;
+                                    font-size: 14px;
+    
+                                }
+    
+                                .hospedagem-preco {}
+                            }
+    
+                        }
+    
+                        .preco-plano {
+                            height: max-content;
+                            width: 100%;
+                            display: flex;
+                            flex-direction: row;
+                            padding: 0px 10px;
+                            justify-content: space-between;
+    
+                            p {
+                                width: 60%;
+                                color: #3C3C3C;
+                                font-size: 10px;
+                            }
+    
+                            h1 {
+                                font-family: 'lexend tera';
+                                color: #8A25C3;
+                            }
+        }
+        }
+        }
+        }
+        }
+        }
+    }
+
+    
+        
+            @media(max-width:650px) {
+                .Pagina-planos{
+                    display: flex;
+                    flex-direction: column; 
+                    
+                        .superior-planos {
+                            height: 70vh;
+                            .planos {
+                                height: 100%;
+                                border-radius: 0px;
+                                .divisor {
+                                    height: 80%;
+                                    width: 88%;
+                
+                                    .paragrafo {
+                                        height: 100%;
+                                        gap: 10px;
+                                        h1{
+                                            font-size: 1.3rem;
+                                        }
+                                        p {
+                                            font-size: 0.8rem;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                
+                    .paginas {
+                    height: 200vh;
+                
+                        .paginaweb {
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column-reverse;
+                        height: 100%;
+                            
+                            .esquerda {
+                                height: 50%;
+                                width: 100%;
+                                p {
+                                    text-align: start;
+                                    color: #707070;
+                                }
+                
+                                img {
+                                    width: auto;
+                                    height: 90%;
+                                }
+                            }
+                
+                            .direita {
+                                height: 60%;
+                                padding: 10px 0px;
+                                width: 80%;
+                
+                                .bloco-superior {
+                                height: 50%;
+                
+                                    .txt-1 {
+                                        display: flex;
+                                        flex-direction: column;
+                                        gap: 10px;
+                                        align-items: center;
+                                        width: 90%;
+                                        h1 {
+                                            font-size: 1.3rem;
+                                            font-family: 'Roboto';
+                                            font-weight: 500;
+                                            color: #8A25C3;
+                                        }
+                                        p {
+                                            width: 100%;
+                                            text-align: start;
+                                            font-size: 0.8rem;
+                                        }
+                                    }
+                
+                                    .detalhes-planos {
+                                        gap: 20px;
+                                        width: 90%;
+                                        li {
+                                            margin-bottom: 1px;
+                                            font-size: 0.8rem;
+                                        }
+                                    }
+                                    h2 {
+                                        font-size: 1rem;
+                                        font-family: 'Roboto';
+                                        font-weight: 500;
+                                        color: #8A25C3;
+                                    }
+                
+                                    
+                                }
+                                .bloco-inferior {
+                                    width: 100%;
+                                    height: 50%;
+                                    padding: 0px;
+                                    .titu-config-plano {
+                                        height: 15%;
+                                        width: 100%;
+                                        padding-left: 25px;
+                
+                                        h2 {
+                                            font-size: 1.3rem;
+                                            font-family: 'Roboto';
+                                            font-weight: 500;
+                                        }
+                                    }
+                                    .sessaoConfig {
+                                        .faixa-configuracao {
+                                            width: 95%;
+                                            height: 30%;
+                                            border-radius: 3px;
+                                            display: flex;
+                                            padding-left: 10px;
+                                            gap: 12px;
+                                            
+                                            button {   
+                                            }
+                                            h3 {
+                                                font-size: 0.8rem;
+                                                font-family: 'Roboto';
+                                                font-weight: 400;
+                                            }
+                                            h4 {
+                                                font-size: 1rem;
+                                                font-family: 'lexend tera';
+                                                font-weight: 400;
+                                            }
+                                            p {
+                                                font-size: 12px;
+                                            }
+                                            select {
+                                                width: 20%;
+                                                font-size: 14px;
+                
+                                            }
+                
+                                            .hospedagem-preco {}
+                                        }
+                
+                                    }
+                
+                                    .preco-plano {
+                                        height: max-content;
+                                        width: 100%;
+                                        display: flex;
+                                        flex-direction: row;
+                                        padding: 0px 10px;
+                                        justify-content: space-between;
+                
+                                        p {
+                                            width: 60%;
+                                            color: #3C3C3C;
+                                            font-size: 10px;
+                                        }
+                
+                                        h1 {
+                                            font-family: 'lexend tera';
+                                            color: #8A25C3;
+                                        }
+                    }
+                    }
+                    }
+                    }
+                    }
+                   
+                    .divisao{
+                        h1{
+                            font-size: 1rem;
+                        }
+                        height: 12vh;
+                    }
+                }
+                
+                
+                }
