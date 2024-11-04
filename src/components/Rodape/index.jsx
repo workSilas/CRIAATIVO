@@ -19,6 +19,7 @@ export default function Rodape() {
           <h1>MAPA DO SITE</h1>
           <Link to={'/'}>HOME</Link>
           <Link to={'/Ferramentas'}>NOSSAS FERRAMENTAS</Link>
+          <Link to={'/Planos'}>NOSSOS PLANOS</Link>
         </div>
         <div className="content" id='redes'>
           <h1>SIGA-NOS!</h1>
