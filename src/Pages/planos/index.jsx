@@ -223,7 +223,7 @@ export default function Planos() {
                   <h3>Quantidade de páginas</h3>
                   <button onClick={Subtraiu}>-</button>
 
-                  <h4>{qtd_pag_simples}</h4>
+                  <h4>R${qtd_pag_simples.toFixed(2).replace(".", ",")}</h4>
 
                   <button onClick={Adicionou}>+</button>
 
@@ -248,7 +248,7 @@ export default function Planos() {
 
               <div className='preco-plano'>
                 <p>Preço final pode alterar de acordo com a configuração do plano, e complexidade das páginas </p>
-                <h1>{preco_pag_simples}</h1>
+                <h1>R${preco_pag_simples.toFixed(2).replace(".", ",")}</h1>
               </div>
 
 
@@ -315,7 +315,7 @@ export default function Planos() {
                   <h3>Quantidade de páginas</h3>
                   <button onClick={Subtraiu_plus}>-</button>
 
-                  <h4>{qtd_pag_simples_plus}</h4>
+                  <h4>R${qtd_pag_simples_plus.toFixed(2).replace(".", ",")}</h4>
 
                   <button onClick={Adicionou_plus}>+</button>
 
@@ -343,7 +343,7 @@ export default function Planos() {
 
               <div className='preco-plano'>
                 <p>Preço final pode alterar de acordo com a configuração do plano, e complexidade das páginas </p>
-                <h1>{preco_pag_simples_plus}</h1>
+                <h1>R${preco_pag_simples_plus.toFixed(2).replace(".", ",")}</h1>
               </div>
 
 
@@ -353,11 +353,11 @@ export default function Planos() {
           </div>
 
         </div>
-        
+
       </div>
 
-      <Rodape/>
-    
+      <Rodape />
+
     </div>
 
   )
