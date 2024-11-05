@@ -38,7 +38,7 @@ export default function Nav() {
           <div className='line'></div>
           <Link onClick={handleClick} to="/Ferramentas">FERRAMENTAS</Link>
           <div className='line'></div>
-          <Link to="https://wa.me/5511977798407?text=Olá! Gostaria tirar um dúvida.">CONTATO</Link>
+          <Link target="_blank" to="https://wa.me/5511977798407?text=Olá! Gostaria tirar um dúvida.">CONTATO</Link>
         </div>
       }
     </div>

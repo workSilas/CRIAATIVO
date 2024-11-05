@@ -13,12 +13,8 @@ export default function Rodape() {
       <div className='line' />
       <div className="info">
         <div className="content">
-          <h1>SOBRE NÓS</h1>
-          <Link onClick={handleClick} to={'/'}>QUEM SOMOS</Link>
-        </div>
-        <div className="content">
           <h1>SUPORTE</h1>
-          <Link onClick={handleClick} to={`https://wa.me/5511977798407?text=Olá! Gostaria tirar um dúvida.`}>CONTATO</Link>
+          <Link target='_blank' to={`https://wa.me/5511977798407?text=Olá! Gostaria tirar um dúvida.`}>CONTATO</Link>
         </div>
         <div className="content">
           <h1>MAPA DO SITE</h1>
