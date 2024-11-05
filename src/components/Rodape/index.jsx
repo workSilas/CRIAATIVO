@@ -2,6 +2,11 @@ import './index.scss';
 import { Link } from 'react-router-dom';
 
 export default function Rodape() {
+
+  const handleClick = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div className="Rodape">
       <img src="/assets/images/LogoEstendida.png" alt="criaativo" />
@@ -9,23 +14,23 @@ export default function Rodape() {
       <div className="info">
         <div className="content">
           <h1>SOBRE NÓS</h1>
-          <Link to={'/'}>QUEM SOMOS</Link>
+          <Link onClick={handleClick} to={'/'}>QUEM SOMOS</Link>
         </div>
         <div className="content">
           <h1>SUPORTE</h1>
-          <Link to={`https://wa.me/5511977798407?text=Olá! Gostaria tirar um dúvida.`}>CONTATO</Link>
+          <Link onClick={handleClick} to={`https://wa.me/5511977798407?text=Olá! Gostaria tirar um dúvida.`}>CONTATO</Link>
         </div>
         <div className="content">
           <h1>MAPA DO SITE</h1>
-          <Link to={'/'}>HOME</Link>
-          <Link to={'/Ferramentas'}>NOSSAS FERRAMENTAS</Link>
-          <Link to={'/Planos'}>NOSSOS PLANOS</Link>
+          <Link onClick={handleClick} to={'/'}>HOME</Link>
+          <Link onClick={handleClick} to={'/Ferramentas'}>NOSSAS FERRAMENTAS</Link>
+          <Link onClick={handleClick} to={'/Planos'}>NOSSOS PLANOS</Link>
         </div>
         <div className="content" id='redes'>
           <h1>SIGA-NOS!</h1>
           <div className="alinhar">
-            <Link to={'/'}><img src="/assets/images/facebook.png" alt="facebook" /></Link>
-            <Link to={'/'}><img src="/assets/images/instagram.png" alt="instagram" /></Link>
+            <Link onClick={handleClick} to={'/'}><img src="/assets/images/facebook.png" alt="facebook" /></Link>
+            <Link onClick={handleClick} to={'/'}><img src="/assets/images/instagram.png" alt="instagram" /></Link>
           </div>
         </div>
       </div>

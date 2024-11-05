@@ -5,6 +5,10 @@ import Rodape from '../../components/Rodape';
 import Nav from '../../components/Nav';
 
 export default function Home() {
+  const handleClick = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div className="Home">
       <Nav />
@@ -19,7 +23,7 @@ export default function Home() {
               webs e sites, que podem impulsionar e trazer <br />
               mais visibilidade para o seu negócio.</p>
           </div>
-          <Link to="/">SABER MAIS</Link>
+          <Link to="/" onClick={handleClick}>SABER MAIS</Link>
         </div>
       </div>
 
@@ -35,7 +39,7 @@ export default function Home() {
               <li>Profissonais qualificados prontos <br />
                 para transformar o seu site em realidade.</li>
             </ul>
-            <Link to="/Planos">VER PLANOS</Link>
+            <Link to="/Planos" onClick={handleClick}>VER PLANOS</Link>
           </div>
           <p className='end'>{'</div>'}</p>
         </div>
@@ -62,7 +66,7 @@ export default function Home() {
                 avançadas e modernas do mercado,<br />
                 mantendo seu site sempre no padrão W3C.</li>
             </ul>
-            <Link to="/Ferramentas">VER NOSSAS FERRAMENTAS</Link>
+            <Link to="/Ferramentas" onClick={handleClick}>VER NOSSAS FERRAMENTAS</Link>
           </div>
           <p className='end'>{'}'}</p>
         </div>
@@ -89,7 +93,7 @@ export default function Home() {
               <li>Tecnologia contra ataque e invasão de bots <br />
                 ou hackers.</li>
             </ul>
-            <Link to="/Ferramentas">VER NOSSAS FERRAMENTAS</Link>
+            <Link to="/Ferramentas" onClick={handleClick}>VER NOSSAS FERRAMENTAS</Link>
           </div>
           <p className='end'>{'}'}</p>
         </div>

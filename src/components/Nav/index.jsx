@@ -4,8 +4,11 @@ import { useState } from 'react';
 
 export default function Nav() {
 
-  const [nav, setNav] = useState(false)
+  const handleClick = () => {
+    window.scrollTo(0, 0);
+  };
 
+  const [nav, setNav] = useState(false)
   function click() {
     setNav(!nav)
   }
@@ -14,15 +17,13 @@ export default function Nav() {
     <div className="Nav">
 
       <div className='sessaoNav'>
-        <Link to="/">HOME</Link>
+        <Link onClick={handleClick} to="/">HOME</Link>
         <div className='line'></div>
-        <Link to="/">SOBRE-NÓS</Link>
+        <Link onClick={handleClick} to="/Planos">PLANOS</Link>
         <div className='line'></div>
-        <Link to="/Planos">PLANOS</Link>
+        <Link onClick={handleClick} to="/Ferramentas">FERRAMENTAS</Link>
         <div className='line'></div>
-        <Link to="/Ferramentas">FERRAMENTAS</Link>
-        <div className='line'></div>
-        <Link to="https://wa.me/5511977798407?text=Olá! Gostaria tirar um dúvida.">CONTATO</Link>
+        <Link onClick={handleClick} to="https://wa.me/5511977798407?text=Olá! Gostaria tirar um dúvida.">CONTATO</Link>
       </div>
 
       {nav === false &&
@@ -31,13 +32,11 @@ export default function Nav() {
       {nav === true &&
         <div className='sessaoNavMob'>
           <button onClick={click}><img src="/assets/images/fechar.png" alt="fechar" /></button>
-          <Link to="/">HOME</Link>
+          <Link onClick={handleClick} to="/">HOME</Link>
           <div className='line'></div>
-          <Link to="/">SOBRE-NÓS</Link>
+          <Link onClick={handleClick} to="/Planos">PLANOS</Link>
           <div className='line'></div>
-          <Link to="/Planos">PLANOS</Link>
-          <div className='line'></div>
-          <Link to="/Ferramentas">FERRAMENTAS</Link>
+          <Link onClick={handleClick} to="/Ferramentas">FERRAMENTAS</Link>
           <div className='line'></div>
           <Link to="https://wa.me/5511977798407?text=Olá! Gostaria tirar um dúvida.">CONTATO</Link>
         </div>
