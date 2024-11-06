@@ -43,7 +43,7 @@ export default function Ferramentas() {
         <div className="complicacao conteudo">
           <h2>Segurança e criptografia</h2>
           <p>Nós trabalhamos com proteção e criptografia <b style={{ color: "#ff087f" }}>JWT</b> , que garante a segurança do seu web site, por meio de criação de tokens criptografados</p>
-          <img src="/assets/images/imagemCRIPTOGRAFIA.png" alt="criptografia" className='imgcripto'/>
+          <img src="/assets/images/imagemCRIPTOGRAFIA.png" alt="criptografia" className='imgcripto' />
           <p>Nossos servidores também são protegidos com backups diários, e configurações de controle de acesso <b style={{ color: "red" }}>Firewall</b>, que é de suma importância para garantir a segurança dos dados do seu site!</p>
         </div>
       </div>
@@ -51,9 +51,9 @@ export default function Ferramentas() {
 
       <div className="sessaoTexto figma">
         <div className="complicacao conteudo">
-          <h2>Projetos do <b style={{color: "#FC1114"}}>F</b><b style={{color: "#F5595B"}}>i</b><b style={{color: "#AE35F2"}}>g</b><b style={{color: "#37BE45"}}>m</b><b style={{color: "#07A1DE"}}>a</b></h2>
-          <p>Transformamos o seu desing do Figma em uma página web, bastar nos compartilhar seu projeto Figma seguindo o seguinte passo:<br/>
-            1: Com seu projeto Figma aberto, clique em <b style={{ color: "#fff", fontWeight: 12, backgroundColor: "#07A1DE", paddingLeft: 3, paddingRight: 3, borderRadius: 5 }}>Share</b> no canto superior direito.<br/>
+          <h2>Projetos do <b style={{ color: "#FC1114" }}>F</b><b style={{ color: "#F5595B" }}>i</b><b style={{ color: "#AE35F2" }}>g</b><b style={{ color: "#37BE45" }}>m</b><b style={{ color: "#07A1DE" }}>a</b></h2>
+          <p>Transformamos o seu desing do Figma em uma página web, bastar nos compartilhar seu projeto Figma seguindo o seguinte passo:<br />
+            1: Com seu projeto Figma aberto, clique em <b style={{ color: "#fff", fontWeight: 12, backgroundColor: "#07A1DE", paddingLeft: 3, paddingRight: 3, borderRadius: 5 }}>Share</b> no canto superior direito.<br />
             2: Mande um convite para o email criaativonovoprojeto@gmail.com.
             Pronto, agora o seu projeto no Figma está sendo compartilhado conosco! E assim que escolher qual plano de desenvolvimento deseja, o prazo de entrega será informado.</p>
           <img src="/assets/images/ferramentasFigma.png" alt="softwares" />

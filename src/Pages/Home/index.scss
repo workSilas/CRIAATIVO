@@ -28,7 +28,8 @@
         .text {
           gap: 20px;
           text-align: left;
-          h1{
+
+          h1 {
             font-family: 'Roboto';
             font-weight: 400;
 
@@ -64,7 +65,7 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content:space-evenly;
+      justify-content: space-evenly;
       padding: 10vh 2vw;
 
 
@@ -86,7 +87,8 @@
           display: flex;
           flex-direction: column;
           gap: 50px;
-          h1{
+
+          h1 {
             font-family: 'Roboto';
             font-weight: 500;
           }
@@ -154,7 +156,7 @@
       .SessaoInicial {
         background-image: url('../../../public/assets/images/imagemINICIALNOVA.png');
         height: 90vh;
-        
+
 
         .square {
           height: 20vh;
@@ -180,7 +182,7 @@
       .SessaoInicial {
 
         .square {
-          
+
           .text {
             font-size: 0.7rem;
           }
@@ -225,7 +227,7 @@
     .Home {
 
       .SessaoInicial {
-      
+
         .square {
           padding-top: 15vh;
 
@@ -237,18 +239,21 @@
 
       .Sessao {
         padding: 4px 8px;
+
         .sep {
 
           .text {
             gap: 20px;
             font-size: 0.7rem;
-            a{
+
+            a {
               font-size: 10px;
             }
-            li{
+
+            li {
               font-size: 12px;
             }
-            
+
           }
         }
       }

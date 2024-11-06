@@ -223,7 +223,7 @@ export default function Planos() {
                   <h3>Quantidade de páginas</h3>
                   <button onClick={Subtraiu}>-</button>
 
-                  <h4>R${qtd_pag_simples.toFixed(2).replace(".", ",")}</h4>
+                  <h4>{qtd_pag_simples}</h4>
 
                   <button onClick={Adicionou}>+</button>
 
@@ -315,7 +315,7 @@ export default function Planos() {
                   <h3>Quantidade de páginas</h3>
                   <button onClick={Subtraiu_plus}>-</button>
 
-                  <h4>R${qtd_pag_simples_plus.toFixed(2).replace(".", ",")}</h4>
+                  <h4>{qtd_pag_simples_plus}</h4>
 
                   <button onClick={Adicionou_plus}>+</button>
 
