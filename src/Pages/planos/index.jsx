@@ -202,7 +202,7 @@ export default function Planos() {
                 <h2>Detalhes do plano</h2>
                 <ul>
                   <li>Apenas Front-end</li>
-                  <li>Manuntenções e alterações nas páginas</li>
+                  <li>Manuntenções e alterações nas páginas (primeira alteração é inclusa no plano, as demais serão cobradas apartir de RS:120,00)</li>
                   <li>DNS, Domínio e Hospedagem já inclusos (renovação será cobrada 1 vez ao ano no valor de RS:120,00)</li>
                 </ul>
 
@@ -297,7 +297,7 @@ export default function Planos() {
                 <ul>
                   <li>Front-end e Back-end</li>
                   <li>Base de tratamento de dados e simples aplicações Back-end</li>
-                  <li>Manuntenções e alterações nas páginas</li>
+                  <li>Manuntenções e alterações nas páginas (primeira alteração é inclusa no plano, as demais serão cobradas apartir de RS:120,00)</li>
                   <li>DNS, Domínio e Hospedagem já inclusos (renovação será cobrada 1 vez ao ano no valor de RS:120,00)</li>
                 </ul>
 
