@@ -272,7 +272,7 @@ export default function Planos() {
 
       <div className="divisao">
         <h1>WEB SITE<br />
-          SIMPLES PLUS</h1>
+  PLUS</h1>
       </div>
       {/*FAIXA AZUL QUE DIVIDE SESSOES*/}
 
